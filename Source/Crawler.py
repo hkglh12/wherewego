@@ -14,12 +14,16 @@ def GetContent(targetlist):
         contentresponse = requests.get(url)
         Chtml = response.text
         Csoup = BeautifulSoup(Chtml, 'html.parser')
-        print(Csoup)
+
 
         print("<<<<<<<<<<<<<<<<<<<<<<<<<<DIVS")
-        a = Csoup.find_all('div', {'id' : 'post-view221554252405'})
+        # a = Csoup.select("div", class_="se-main-container")
+        a = Csoup.select("div", class_="se-component se-text se-l-default", id="SE-0acef6fc-5c7e-4699-83d9-3f298ddb077c")
+        print("ONLY P")
         print(a)
-
+       
+        with open('result.json', 'w', encoding='utf-8') as file :
+            json.dump(Csoup, file, ensure_ascii=False, indent='\t')
         # print("+++++++++++++++++++++++++++Csoup")
         # print(Csoup)
         # post = Csoup.find("div", {"id" : "se-main-container"})
@@ -53,6 +57,7 @@ for target in targetarea:
     resultlist.append(result)
 
 docs = GetContent(resultlist)
+print("FINAL RESULT")
 print(docs)
 
 
@@ -86,7 +91,7 @@ print(docs)
 # area = soup.find_all('dd', attrs={'class' : 'txt_block'})
 
 # for target in area :
-#     tef = target.find("a", {"class" :"url"})
+#     tef = target.find("a", pr{"class" :"url"})
 #     print(tef)
 
 # # print(area)
