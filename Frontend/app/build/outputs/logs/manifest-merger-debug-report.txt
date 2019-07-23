@@ -1,0 +1,166 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\85d8b969907e2d1c643d3236100ab927\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b6411ed4c5868dbeb49f7a3c05679ecf\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\94181b1872d510f0c8bd62f9e27397fc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\f5fd18e2c2fcb4471a218523ef757ac3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\c69b0c10403120fb512c270d589865b2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\ef053d6ae7f3c0b952300f423e89fac9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\2d270091040fb454bea8fecd88abe0ad\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\f976246984c1e13822e3bc6a3eb83878\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\41ce6e9371db816713541cabc0d8f34e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\208c87248a8e748cc9259e0ba68e67a0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\8b9a4c3327d7791be3f81493481dc8e2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\0ab98a40499c5134b041f4e6a4a0ae3c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\2b9d97feab2188a7eda376aa79cadec2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\4fd39bf33985eae2ecf1070a93ba69a7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\4acbe5bfafd49c8c45a770ac00ee9505\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\070737a992520f0e3c614c870cea35e9\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b1a8713357c4397e90049b859c377e25\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\4223aab062c912ef9fece8a5e57a6ee6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\29e5968e72236a8279b189ef2b4644e5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b190bbea2b9ec05e31f4a6b152b487eb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\43aaf72b1dfecbb32dbbe93d9769d144\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\dfd027091f83b9eeb663fa637e28ddcf\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\f9b52ed653242136b1ab1e649cfc8e53\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\098cd7d3a43f6d2928fbaec1d592f353\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\ca14a05751d0b27f5c2a631fe2c6e53a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\26005d92af5f5d76b205763fe007826e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\690a24e31df9405a934005ef5b0fe3cc\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:5:5-22:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b6411ed4c5868dbeb49f7a3c05679ecf\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b6411ed4c5868dbeb49f7a3c05679ecf\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.1] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\070737a992520f0e3c614c870cea35e9\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\070737a992520f0e3c614c870cea35e9\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b1a8713357c4397e90049b859c377e25\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b1a8713357c4397e90049b859c377e25\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\070737a992520f0e3c614c870cea35e9\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.kkk.wherewego.themeActivity
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:12:9-60
+	android:name
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:12:19-48
+activity#com.kkk.wherewego.routeActivity
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:13:9-51
+	android:name
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:13:19-48
+activity#com.kkk.wherewego.NearmeActivity
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:14:9-52
+	android:name
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:14:19-49
+activity#com.kkk.wherewego.MainActivity
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:15:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\85d8b969907e2d1c643d3236100ab927\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\85d8b969907e2d1c643d3236100ab927\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b6411ed4c5868dbeb49f7a3c05679ecf\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b6411ed4c5868dbeb49f7a3c05679ecf\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\94181b1872d510f0c8bd62f9e27397fc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\94181b1872d510f0c8bd62f9e27397fc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\f5fd18e2c2fcb4471a218523ef757ac3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\f5fd18e2c2fcb4471a218523ef757ac3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\c69b0c10403120fb512c270d589865b2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\c69b0c10403120fb512c270d589865b2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\ef053d6ae7f3c0b952300f423e89fac9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\ef053d6ae7f3c0b952300f423e89fac9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\2d270091040fb454bea8fecd88abe0ad\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\2d270091040fb454bea8fecd88abe0ad\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\f976246984c1e13822e3bc6a3eb83878\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\f976246984c1e13822e3bc6a3eb83878\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\41ce6e9371db816713541cabc0d8f34e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\41ce6e9371db816713541cabc0d8f34e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\208c87248a8e748cc9259e0ba68e67a0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\208c87248a8e748cc9259e0ba68e67a0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\8b9a4c3327d7791be3f81493481dc8e2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\8b9a4c3327d7791be3f81493481dc8e2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\0ab98a40499c5134b041f4e6a4a0ae3c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\0ab98a40499c5134b041f4e6a4a0ae3c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\2b9d97feab2188a7eda376aa79cadec2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\2b9d97feab2188a7eda376aa79cadec2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\4fd39bf33985eae2ecf1070a93ba69a7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\4fd39bf33985eae2ecf1070a93ba69a7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\4acbe5bfafd49c8c45a770ac00ee9505\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\4acbe5bfafd49c8c45a770ac00ee9505\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\070737a992520f0e3c614c870cea35e9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\070737a992520f0e3c614c870cea35e9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b1a8713357c4397e90049b859c377e25\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b1a8713357c4397e90049b859c377e25\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\4223aab062c912ef9fece8a5e57a6ee6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\4223aab062c912ef9fece8a5e57a6ee6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\29e5968e72236a8279b189ef2b4644e5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\29e5968e72236a8279b189ef2b4644e5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b190bbea2b9ec05e31f4a6b152b487eb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b190bbea2b9ec05e31f4a6b152b487eb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\43aaf72b1dfecbb32dbbe93d9769d144\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\43aaf72b1dfecbb32dbbe93d9769d144\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\dfd027091f83b9eeb663fa637e28ddcf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\dfd027091f83b9eeb663fa637e28ddcf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\f9b52ed653242136b1ab1e649cfc8e53\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\f9b52ed653242136b1ab1e649cfc8e53\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\098cd7d3a43f6d2928fbaec1d592f353\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\098cd7d3a43f6d2928fbaec1d592f353\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\ca14a05751d0b27f5c2a631fe2c6e53a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\ca14a05751d0b27f5c2a631fe2c6e53a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\26005d92af5f5d76b205763fe007826e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\26005d92af5f5d76b205763fe007826e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\690a24e31df9405a934005ef5b0fe3cc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\690a24e31df9405a934005ef5b0fe3cc\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
