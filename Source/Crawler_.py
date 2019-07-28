@@ -5,11 +5,13 @@ import requests
 import json
 import os
 
-url = "https://search.naver.com/search.naver"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+url = "https://search.naver.com/search.naver"
+target = input("검색 키워드?:")
 params = {
     "where": "post",
-    "query" : "여행 추천",
+    "query" : target,
     "date_from": "20180101",
     "date_to": "20190101",
     "date_option" : '8'
@@ -25,6 +27,7 @@ datalist = []
 for tag in area:
     # print(tag['title'])
     # print(tag['href'])
+    modiurl = tag['href']
     data = {
         "title" : tag['title'],
         "href" : tag['href'],
@@ -55,12 +58,19 @@ for target in datalist:
 for target in datalist:
     content = " "
     url = target['href']
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, 'html.parser')
-    temp = soup.select(".se_textView")
-    for a in temp:
-        print(a.get_text())
-        content += a.get_text()
+    try:
+        response = requests.get(url)
+    except:
+        target['content'] = "blog.naver.com/ 형식이 아님. 현재내용을 읽어올 수 없음."
+    else:
+        soup = BeautifulSoup(response.text, 'html.parser')
+        temp = soup.select(".se_textView")
+        for a in temp:
+            print(a.get_text())
+            content += a.get_text()
 
-    target["content"] = content
+        target["content"] = content
 print(datalist)
+with open(os.path.join(BASE_DIR, 'result.json'), 'w+') as json_file:
+    json.dump(datalist, json_file, ensure_ascii=False)
+
