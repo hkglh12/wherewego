@@ -9,12 +9,14 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 url = "https://search.naver.com/search.naver"
 target = input("검색 키워드?:")
+
 params = {
     "where": "post",
     "query" : target,
     "date_from": "20180101",
     "date_to": "20190101",
-    "date_option" : '8'
+    "date_option" : '8',
+    "start":(3-1) * 10 + 1
 }
 
 ###################################1차가공
@@ -71,6 +73,7 @@ for target in datalist:
 
         target["content"] = content
 print(datalist)
+print("FIN")
 with open(os.path.join(BASE_DIR, 'result.json'), 'w+') as json_file:
     json.dump(datalist, json_file, ensure_ascii=False)
 

@@ -12,7 +12,7 @@ hdr = {"User-Agent": "Mozilla/5.0", 'referer': 'http://naver.com'}
 
 datalist = OrderedDict()
 userinput = input("검색 키워드? :")
-for page in count(1, 20):
+for page in count(1, 2):
 
     params = {
         "where": "post",
