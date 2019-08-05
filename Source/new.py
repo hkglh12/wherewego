@@ -24,10 +24,11 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__)) + "\\resultdir" + "\\" + u
 
 rooturl = "https://search.naver.com/search.naver"
 
-datalist = []
+
 count = 0
 start_time = time.time()
 for i in range(routine):
+    datalist = []
     print(">>>>>>>>>>>>>>>>>>>>>>>>>>", i , "<<<<<<<<<<<<<<<<<<<<<<<<<<")
     params = {
         "where": "post",
@@ -39,7 +40,7 @@ for i in range(routine):
     print(params['start'])
     response = requests.get(rooturl, params=params)
 
-    soup = BeautifulSoup(response.text, 'html.parser')
+    soup = BeautifulSoup(response.text, 'lxml')
     area = soup.select(".sh_blog_title")
 
     for target in area:
@@ -58,7 +59,7 @@ for i in range(routine):
     #############################네이버블로그만##############################
     for urlveri in datalist:
         html = requests.get(urlveri['href'])
-        soup = BeautifulSoup(html.text, 'html.parser')
+        soup = BeautifulSoup(html.text, 'lxml')
         area = soup.find(id="mainFrame")
         
         if area is not None:
@@ -68,14 +69,11 @@ for i in range(routine):
         
         urlveri['href'] = new_url
 
-print("DONE")
+
 # print(datalist)
 
 ############################URL가공까지 종료##########################
-for target in datalist:
-    pass
-    print(target['href'] + '\t')
-url = datalist[0]['href']
+
 # response = requests.get(url)
 # soup = BeautifulSoup(response.text, 'html.parser')
 # print(soup)
@@ -92,37 +90,37 @@ url = datalist[0]['href']
 
 # print(text)
 #############################성공코드
-for target in datalist:
-    count+=1
-    file_name = file_oper+str(count)
-    content = ""
-    url = target['href']
-    try:
-        response = requests.get(url)
-        
-    except:
-        target['contents'] = "Problem in Getting Contents"
-    else:
-        soup = BeautifulSoup(response.text, 'lxml')
-        text = ""
-        contents = soup.select(".se-main-container")
-
-        if len(contents) !=0:
-            print("OUT")
-            for item in contents:
-                text += item.get_text()
+    for target in datalist:
+        count+=1
+        file_name = file_oper+str(count)
+        content = ""
+        url = target['href']
+        try:
+            response = requests.get(url)
+            
+        except:
+            target['contents'] = "Problem in Getting Contents"
         else:
-            print("IN")
-            contents = soup.select(".postListBody")
-            print(contents)
-            for item in contents:
-                text += item.get_text()
-        target['contents'] = text
-    with open(os.path.join(BASE_DIR, file_name), 'w+', encoding='UTF-8-sig') as json_file:
-        json_file.write(json.dumps(target, ensure_ascii=False))
-        json_file.close()
-    print("본문 가공 완료 <<<<<<<<<<<<<<<<<<<<<<<<<<<<")
-    
+            soup = BeautifulSoup(response.text, 'lxml')
+            text = ""
+            contents = soup.select(".se-main-container")
+
+            if len(contents) !=0:
+                print("OUT")
+                for item in contents:
+                    text += item.get_text()
+            else:
+                print("IN")
+                contents = soup.select(".postListBody")
+                print(contents)
+                for item in contents:
+                    text += item.get_text()
+            target['contents'] = text
+        with open(os.path.join(BASE_DIR, file_name), 'w+', encoding='UTF-8-sig') as json_file:
+            json_file.write(json.dumps(target, ensure_ascii=False))
+            json_file.close()
+        print("본문 가공 완료 <<<<<<<<<<<<<<<<<<<<<<<<<<<<")
+        
 
 print('FIN')
 print(datalist)
