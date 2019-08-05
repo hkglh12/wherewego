@@ -7,23 +7,20 @@ import os
 import time
 
 target = input("검색 키워드?:")
-routine = int(input("Routine?:"))
-file_oper = target
+routine = input("Routine?:")
 try:
     if not os.path.exists("resultdir"):
         os.makedirs("resultdir")
-    if not os.path.exists("resultdir\\"+target):
-        os.makedirs("resultdir\\"+target)
 except:
     print("Error in making dir")
     raise
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__)) + "\\resultdir" + "\\" + target
+BASE_DIR = os.path.dirname(os.path.abspath(__file__)) + "\\resultdir"
 
 
 count = 0
 start_time = time.time()
-for i in range(routine):
+for i in range(30):
     print(i, "번째 Start (+10개단위)")
     url = "https://search.naver.com/search.naver"
 
@@ -33,7 +30,7 @@ for i in range(routine):
         "date_from": "20180101",
         "date_to": "20190101",
         "date_option" : '8',
-        "start": i * 10 + 1
+        "start":(i-1) * 10 + 1
     }
 
     response = requests.get(url, params=params)
@@ -43,16 +40,12 @@ for i in range(routine):
     datalist = []
     for tag in area:
         modiurl = tag['href']
-        print(modiurl)
-        if "https://blog.naver.com" in modiurl:
-            data = {
-                "title" : tag['title'],
-                "href" : tag['href'],
-                "content" : "NOT YET"
-            }
-            datalist.append(data)
-        else:
-            continue
+        data = {
+            "title" : tag['title'],
+            "href" : tag['href'],
+            "content" : "NOT YET"
+        }
+        datalist.append(data)
     print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>.1차가공종료")
     for target in datalist:
         url=target['href']
@@ -66,7 +59,7 @@ for i in range(routine):
 
     for target in datalist:
         count += 1
-        fileoper = file_oper + str(count)
+        fileoper = str(count)
         content = " "
         url = target['href']
         try:
@@ -78,12 +71,11 @@ for i in range(routine):
             temp = soup.select(".se_textView")
             for a in temp:
                 content += a.get_text()
-                print(content)
+
             target["content"] = content
         with open(os.path.join(BASE_DIR, fileoper), 'a+', encoding='UTF-8-sig') as json_file:
             json_file.write(json.dumps(datalist, ensure_ascii=False))
             json_file.close()
     print(">>>>>>>>>>>>>>>>>>>>>>>>>2차가공종료")
 print("FIN")
-print("---- %s seconds ----" % (start_time - time.time()))
-print(datalist)
+print("---- %s seconds ----" % (time.time()-start_time))
