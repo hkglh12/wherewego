@@ -37,7 +37,6 @@ for i in range(routine):
         "date_to": "20190605",
         "start": i * 10 + 1
     }
-    print(params['start'])
     response = requests.get(rooturl, params=params)
 
     soup = BeautifulSoup(response.text, 'lxml')
@@ -92,7 +91,7 @@ for i in range(routine):
 #############################성공코드
     for target in datalist:
         count+=1
-        file_name = file_oper+str(count)
+        file_name = file_oper+str(count) + ".json"
         content = ""
         url = target['href']
         try:
@@ -106,21 +105,21 @@ for i in range(routine):
             contents = soup.select(".se-main-container")
 
             if len(contents) !=0:
-                print("OUT")
+                print("Crawling")
                 for item in contents:
                     text += item.get_text()
+                target['contents'] = text
             else:
-                print("IN")
                 contents = soup.select(".postListBody")
-                print(contents)
-                for item in contents:
-                    text += item.get_text()
-            target['contents'] = text
+                if len(contents) != 0:
+                    for item in contents:
+                        text += item.get_text()
+                    target['contents'] = text
+                else:
+                    continue
         with open(os.path.join(BASE_DIR, file_name), 'w+', encoding='UTF-8-sig') as json_file:
             json_file.write(json.dumps(target, ensure_ascii=False))
             json_file.close()
-        print("본문 가공 완료 <<<<<<<<<<<<<<<<<<<<<<<<<<<<")
-        
+        print("Done")
 
 print('FIN')
-print(datalist)
