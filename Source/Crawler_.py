@@ -32,9 +32,11 @@ for tag in area:
     modiurl = tag['href']
     data = {
         "title" : tag['title'],
+        "originhref": tag['href'],
         "href" : tag['href'],
         "content" : "NOT YET"
     }
+    print(data['originhref'])
     datalist.append(data)
 
 print("resultdict")
@@ -67,10 +69,18 @@ for target in datalist:
     else:
         soup = BeautifulSoup(response.text, 'html.parser')
         temp = soup.select(".se_textView")
-        for a in temp:
-            print(a.get_text())
-            content += a.get_text()
-
+        if len(temp) != 0:
+            for a in temp:
+                print(a.get_text())
+                content += a.get_text()
+        else:
+            url = "https://m.blog.naver.com" + target['originhref']
+            print(url)
+            response = requests.get(url)
+            soup = BeautifulSoup(response.text, 'html.parser')
+            temp = soup.select("div", {"id": "viewTypeSelector"})
+            for item in temp:
+                print(item.get_text())
         target["content"] = content
 print(datalist)
 print("FIN")
