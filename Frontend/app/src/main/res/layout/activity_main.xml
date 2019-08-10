@@ -36,7 +36,7 @@
         app:layout_constraintVertical_bias="0.173">
 
         <ImageButton
-            android:id="@+id/findlocal"
+            android:id="@+id/Nearme"
             android:layout_width="168dp"
             android:layout_height="149dp"
             android:layout_marginStart="8dp"
