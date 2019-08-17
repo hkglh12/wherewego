@@ -35,8 +35,13 @@
 
 ## Why Back, Frontend development suspended?
 
-  *** From 17.Aug.2019 - to 2nd.Sep.2019, we will develop our internal Algorithm.
+  ***From 17.Aug.2019 - to 2nd.Sep.2019, we will develop our internal Algorithm.***
   - Which is scoring our results. 
     - If our Algorithm returns some name of restaurant, places, then it must be scored. which is good or not.
     - We are using TenserFlow, Pandas. 
     - It should be done or at least done by 50% until 2nd.Sep.2019. So we will work on it.
+    
+## So, What will we going to do in developing internal algorithm?
+  - Using TenserFlow or sort of things
+  - For now(17th.Aug.2019), We are considering using pandas for manage our final data.
+  - Constructing systsem flow.
