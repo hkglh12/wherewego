@@ -6,7 +6,43 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>androidx.test.espresso</group-id>
+        <name>espresso-core</name>
+        <version>3.3.0-alpha02</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.test</group-id>
+        <name>runner</name>
+        <version>1.3.0-alpha02</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.constraintlayout</group-id>
+        <name>constraintlayout</name>
+        <version>2.0.0-beta2</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>junit</group-id>
+        <name>junit</name>
+        <version>4.13-beta-3</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.appcompat</group-id>
+        <name>appcompat</name>
+        <version>1.1.0-rc01</version>
+        <repository>Google</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1565654350982</last-search-timestamp>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c90474c3-8e55-4bb2-baf6-584f65d184ca" name="Default Changelist" comment="">
@@ -16,10 +52,30 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/kkk/wherewego/test/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/kkk/wherewego/test/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/kkk/wherewego/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/kkk/wherewego/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk_list/debug/mainApkListPersistenceDebug/apk-list.gson" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/apk_list/debug/mainApkListPersistenceDebug/apk-list.gson" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_merged_manifests/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_run_merged_manifests/debug/output.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debugAndroidTest/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debugAndroidTest/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kkk/wherewego/NearmeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kkk/wherewego/NearmeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_nearme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_nearme.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,10 +98,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kkk/wherewego/MainActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_route.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kkk/wherewego/NearmeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,43 +115,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_nearme.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_theme.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_route.xml">
-          <provider selected="true" editor-type-id="android-designer2" />
-          <provider editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="1520">
+              <caret line="80" column="52" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -97,18 +138,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="494">
+              <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="android-designer2" />
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="2983">
-              <caret line="157" column="35" selection-start-line="157" selection-start-column="35" selection-end-line="157" selection-end-column="35" />
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2394">
+              <caret line="126" selection-start-line="126" selection-end-line="126" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -147,16 +197,18 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/kkk/wherewego/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_nearme.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_nearme.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/kkk/wherewego/NearmeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="78" />
-    <option name="width" value="1867" />
-    <option name="height" value="1047" />
+    <option name="x" value="393" />
+    <option name="width" value="1527" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -164,9 +216,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
+            <path>
+              <item name="Frontend" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Frontend" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+            </path>
+            <path>
+              <item name="Frontend" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Frontend" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="wherewego" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Frontend" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="Frontend" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
             <path>
               <item name="Frontend" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
@@ -175,8 +260,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,8 +278,11 @@
     <property name="ExportApk.BuildVariants" value="release" />
     <property name="ExportApk.SignV1" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="device.picker.selection" value="Pixel_2_API_25" />
+    <property name="device.picker.selection" value="ce05160591eb722804" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.29695025" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -290,11 +376,20 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="78" width="1867" height="1047" extended-state="0" />
+    <frame x="393" y="0" width="1527" height="1040" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49243698" visible="true" weight="0.15393196" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49243698" visible="true" weight="0.23055747" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" sideWeight="0.506734" side_tool="true" weight="0.20790817" />
@@ -302,34 +397,25 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" weight="0.3297194" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Logcat" order="1" />
-      <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="5" sideWeight="0.88961893" visible="true" weight="0.4605856" />
+      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.4989259" weight="0.32887402" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.7378695" weight="0.33484676" />
+      <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.49946293" weight="0.32998884" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3291714" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.26083964" side_tool="true" visible="true" weight="0.18501702" />
+      <window_info anchor="bottom" id="Build" order="5" sideWeight="0.73916036" visible="true" weight="0.18501702" />
       <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3291714" />
       <window_info anchor="bottom" id="Debug" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32995495" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.3692136" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.17958729" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kkk/wherewego/NearmeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kkk/wherewego/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -340,42 +426,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_nearme.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_theme.xml">
       <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_route.xml">
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_nearme.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="1520">
+          <caret line="80" column="52" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="494">
+          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="2983">
-          <caret line="157" column="35" selection-start-line="157" selection-start-column="35" selection-end-line="157" selection-end-column="35" />
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2394">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -393,12 +481,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/kkk/wherewego/NearmeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="342">
+          <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
   </component>
 </project>
