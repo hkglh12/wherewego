@@ -1,11 +1,19 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\85d8b969907e2d1c643d3236100ab927\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b6411ed4c5868dbeb49f7a3c05679ecf\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\97fa99a1376074500e31b08a5fcc54ab\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.1] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\1ca3026c18426aeb95acf1b0aced6965\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b0806eb59ee6c40fa65c006df2e25b08\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\087eb6b2347a1eaf7e9893a48852ffcb\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\70848e88b04c54a3b99278b1d4765ff6\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\754ec0edf4aed19071ce17d4f497ca34\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\670efa9971bf91a2737e269b59aa3daf\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\81dd7c7482c163f9c8912881220c2a9f\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\94181b1872d510f0c8bd62f9e27397fc\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\f5fd18e2c2fcb4471a218523ef757ac3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\c69b0c10403120fb512c270d589865b2\AndroidManifest.xml:17:1-22:12
@@ -27,24 +35,24 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mir_oz\.gradle\c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\43aaf72b1dfecbb32dbbe93d9769d144\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\dfd027091f83b9eeb663fa637e28ddcf\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\f9b52ed653242136b1ab1e649cfc8e53\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\690a24e31df9405a934005ef5b0fe3cc\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\098cd7d3a43f6d2928fbaec1d592f353\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\ca14a05751d0b27f5c2a631fe2c6e53a\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\26005d92af5f5d76b205763fe007826e\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\690a24e31df9405a934005ef5b0fe3cc\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:1-30:12
 		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:2:11-69
@@ -57,9 +65,21 @@ ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:5
 	android:name
 		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:6:5-23:19
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:6:5-28:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b6411ed4c5868dbeb49f7a3c05679ecf\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b6411ed4c5868dbeb49f7a3c05679ecf\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b0806eb59ee6c40fa65c006df2e25b08\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b0806eb59ee6c40fa65c006df2e25b08\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\087eb6b2347a1eaf7e9893a48852ffcb\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\087eb6b2347a1eaf7e9893a48852ffcb\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\70848e88b04c54a3b99278b1d4765ff6\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\70848e88b04c54a3b99278b1d4765ff6\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\754ec0edf4aed19071ce17d4f497ca34\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\754ec0edf4aed19071ce17d4f497ca34\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\670efa9971bf91a2737e269b59aa3daf\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\670efa9971bf91a2737e269b59aa3daf\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\81dd7c7482c163f9c8912881220c2a9f\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\81dd7c7482c163f9c8912881220c2a9f\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.0.1] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\070737a992520f0e3c614c870cea35e9\AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.1] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\070737a992520f0e3c614c870cea35e9\AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b1a8713357c4397e90049b859c377e25\AndroidManifest.xml:22:5-23:19
@@ -78,32 +98,38 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Mi
 		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
 		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:12:9-40
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:14:9-16:70
+	android:value
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:16:13-68
+	android:name
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:15:13-58
 activity#com.kkk.wherewego.themeActivity
-ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:13:9-60
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:18:9-60
 	android:name
-		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:13:19-48
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:18:19-48
 activity#com.kkk.wherewego.routeActivity
-ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:14:9-51
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:19:9-51
 	android:name
-		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:14:19-48
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:19:19-48
 activity#com.kkk.wherewego.NearmeActivity
-ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:15:9-52
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:20:9-52
 	android:name
-		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:15:19-49
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:20:19-49
 activity#com.kkk.wherewego.MainActivity
-ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:16:9-22:20
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:21:9-27:20
 	android:name
-		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:16:19-47
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:21:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml:25:27-74
 uses-sdk
 INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
@@ -112,6 +138,22 @@ MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Mir_oz\.gradle\caches\
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\85d8b969907e2d1c643d3236100ab927\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b6411ed4c5868dbeb49f7a3c05679ecf\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b6411ed4c5868dbeb49f7a3c05679ecf\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\97fa99a1376074500e31b08a5fcc54ab\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\97fa99a1376074500e31b08a5fcc54ab\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.1] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\1ca3026c18426aeb95acf1b0aced6965\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.1] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\1ca3026c18426aeb95acf1b0aced6965\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b0806eb59ee6c40fa65c006df2e25b08\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b0806eb59ee6c40fa65c006df2e25b08\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\087eb6b2347a1eaf7e9893a48852ffcb\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\087eb6b2347a1eaf7e9893a48852ffcb\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\70848e88b04c54a3b99278b1d4765ff6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\70848e88b04c54a3b99278b1d4765ff6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\754ec0edf4aed19071ce17d4f497ca34\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\754ec0edf4aed19071ce17d4f497ca34\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\670efa9971bf91a2737e269b59aa3daf\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\670efa9971bf91a2737e269b59aa3daf\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\81dd7c7482c163f9c8912881220c2a9f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\81dd7c7482c163f9c8912881220c2a9f\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\94181b1872d510f0c8bd62f9e27397fc\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\94181b1872d510f0c8bd62f9e27397fc\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\f5fd18e2c2fcb4471a218523ef757ac3\AndroidManifest.xml:20:5-44
@@ -154,14 +196,14 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Mir_oz\.gradle\caches\transfor
 MERGED from [androidx.print:print:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\dfd027091f83b9eeb663fa637e28ddcf\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\f9b52ed653242136b1ab1e649cfc8e53\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\f9b52ed653242136b1ab1e649cfc8e53\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\690a24e31df9405a934005ef5b0fe3cc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\690a24e31df9405a934005ef5b0fe3cc\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\098cd7d3a43f6d2928fbaec1d592f353\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\098cd7d3a43f6d2928fbaec1d592f353\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\ca14a05751d0b27f5c2a631fe2c6e53a\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\ca14a05751d0b27f5c2a631fe2c6e53a\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\26005d92af5f5d76b205763fe007826e\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\26005d92af5f5d76b205763fe007826e\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\690a24e31df9405a934005ef5b0fe3cc\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\690a24e31df9405a934005ef5b0fe3cc\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -172,3 +214,37 @@ INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xm
 		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Mir_oz\wherewego\Frontend\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b0806eb59ee6c40fa65c006df2e25b08\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b0806eb59ee6c40fa65c006df2e25b08\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b0806eb59ee6c40fa65c006df2e25b08\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b0806eb59ee6c40fa65c006df2e25b08\AndroidManifest.xml:24:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b0806eb59ee6c40fa65c006df2e25b08\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b0806eb59ee6c40fa65c006df2e25b08\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b0806eb59ee6c40fa65c006df2e25b08\AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b0806eb59ee6c40fa65c006df2e25b08\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b0806eb59ee6c40fa65c006df2e25b08\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\b0806eb59ee6c40fa65c006df2e25b08\AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\70848e88b04c54a3b99278b1d4765ff6\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\70848e88b04c54a3b99278b1d4765ff6\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\70848e88b04c54a3b99278b1d4765ff6\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\70848e88b04c54a3b99278b1d4765ff6\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\81dd7c7482c163f9c8912881220c2a9f\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\81dd7c7482c163f9c8912881220c2a9f\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Mir_oz\.gradle\caches\transforms-2\files-2.1\81dd7c7482c163f9c8912881220c2a9f\AndroidManifest.xml:24:13-58

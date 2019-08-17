@@ -1,3 +1,4 @@
+
 package com.kkk.wherewego;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,20 +14,32 @@ import android.view.Window;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
 import java.util.List;
 
 // LocationManager : reference : https://bitsoul.tistory.com/130
-public class NearmeActivity extends AppCompatActivity {
+public class NearmeActivity extends AppCompatActivity implements OnMapReadyCallback {
     String NearTag = "";
     TextView now_location;
+    GoogleMap mMap;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
+
         // title바 제거
         // Reference : https://ghj1001020.tistory.com/9
         setContentView(R.layout.activity_nearme);
         NearTag = "Near Act";
+        SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);  //이걸로 성공했는데, fragment로 바꾸자.
         final Context NearContext = getApplicationContext();
         final TextView locmanager = (TextView)findViewById(R.id.LocationManager);
         now_location = (TextView)findViewById(R.id.NowLocation);
@@ -61,7 +74,26 @@ public class NearmeActivity extends AppCompatActivity {
             }
         });
     } // Oncreate Fin
-   // Ref  :  https://bitsoul.tistory.com/131?category=623707
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+        // 구글 맵 객체를 불러온다.
+        mMap = googleMap;
+
+        // 서울 여의도에 대한 위치 설정
+        LatLng seoul = new LatLng(37.52487, 126.92723);
+
+        // 구글 맵에 표시할 마커에 대한 옵션 설정
+        MarkerOptions makerOptions = new MarkerOptions();
+        makerOptions
+                .position(seoul)
+                .title("원하는 위치(위도, 경도)에 마커를 표시했습니다.");
+
+        // 마커를 생성한다.
+        mMap.addMarker(makerOptions);
+
+        //카메라를 여의도 위치로 옮긴다.
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(seoul));
+    }
     private final LocationListener mLocationListener = new LocationListener(){
         public void onLocationChanged(Location location) {
             Log.e(NearTag, "Location changed, loc : " + location);
