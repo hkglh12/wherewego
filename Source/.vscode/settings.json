@@ -8,5 +8,9 @@
     ],
     "python.testing.pytestEnabled": false,
     "python.testing.nosetestsEnabled": false,
-    "python.testing.unittestEnabled": true
+    "python.testing.unittestEnabled": true,
+    "python.pythonPath": "C:\\Users\\Mir_oz\\AppData\\Local\\Continuum\\miniconda3\\envs\\wherewego\\python.exe",
+    "python.linting.pep8Enabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true
 }

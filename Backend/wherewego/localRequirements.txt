@@ -1,0 +1,5 @@
+beautifulsoup4==4.7.1
+gensim=3.8.0
+JPype1==0.7.0
+lxml==4.4.0
+PyMySQL==0.9.3
